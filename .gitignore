@@ -1,0 +1,11 @@
+# Ignore Terraform-specific files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+crash.log
+*.log
+
+# Mac system files
+.DS_Store
